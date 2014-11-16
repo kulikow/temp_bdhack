@@ -24,7 +24,7 @@
 
             var textes = new Array()
 
-            VK.api('wall.get', { owner_id: "1" }, function (data) {
+            VK.api('wall.get', {}, function (data) {
                 var count;
                 if (data.response) {
                     count = data.response[0];
